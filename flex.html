@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        html,body {height: 100%;}
+        body {display: flex;flex-wrap:nowrap;}
+        .sidebar {height: 100%;flex-basis: 20%;background: red;}
+        .main {height: 100%;flex-basis: 100%;background: blue;}
+    </style>
+</head>
+<body>
+<!--
+IE默认flex-wrap是wrap, 其他浏览器默认flex-wrap:nowrap;
+-->
+<div class="sidebar">sidebar</div>
+<div class="main">main</div>
+</body>
+</html>
