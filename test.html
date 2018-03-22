@@ -1,34 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    h1 {
+      margin: 0;
+      background: #cff;
+    }
+
+    div {
+      margin: 40px 0 25px 0;
+      background: #cfc;
+    }
+
+    p {
+      margin: 20px 0 0 0;
+      background: #cf9;
+    }
+
+  </style>
 </head>
+
 <body>
+  <h1>Heading Content</h1>
+  <div>
+    <p>Paragraph content</p>
+  </div>
 
 
-<script>
-          var oFrag=document.createDocumentFragment();
-       for(var i=0;i<100;i++)
-       {
-              var op=document.createElement("P");
-              var oText=document.createTextNode(i);
-              op.appendChild(oText);
-              oFrag.appendChild(op);
-       }
-       document.body.appendChild(oFrag);
-       for(var i=0;i<100;i++)
-       {
-              var op=document.createElement("P");
-              var oText=document.createTextNode(i);
-              op.appendChild(oText);
-              oFrag.appendChild(op);
-       }
-       //这段代码中
-       document.body.appendChild(oFrag);
 
-</script>
+  <script>
+
+
+  </script>
 </body>
+
 </html>
